@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+  //background-color: yellowgreen;
+}
+
+.hero {
+  height: 500px;
+  background-color: white;
+  background-image: url(../images/nycHero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100px;
+    padding-top: 200px;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 10px 10px 10px black;
+  }
+}

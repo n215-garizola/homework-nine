@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.hero {
+  height: 500px;
+  background-color: white;
+  background-image: url(../images/nycHero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 100px;
+  padding-top: 200px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 10px 10px 10px black;
+}
+
+nav {
+  height: 100px;
+  width: 90%;
+  border-radius: 75%;
+  border-style: solid;
+  border-color: black;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  height: 50px;
+  min-width: 100%;
+  background-color: lightyellow;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content {
+  background-color: white;
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.content .bigImage {
+  height: 600px;
+  background-color: white;
+  background-image: url(../images/nyc1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.content .bigImage1 {
+  height: 500px;
+  background-color: white;
+  background-image: url(../images/bing3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.content .image-big {
+  height: 700px;
+  background-color: white;
+  background-image: url(../images/nycHW9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.content .imagebig {
+  height: 500px;
+  background-color: white;
+  background-image: url(../images/bingbong1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.content .imagebig1 {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  background-image: url(../images/nycbingbong2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.content .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .products .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .products .product .product-image {
+  background-image: url(../images/pp2.webp);
+  height: 150px;
+  width: 300px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.content .products .product .product-image1 {
+  background-image: url(../images/bing4.jpeg);
+  height: 150px;
+  width: 300px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.content .products .product .product-description {
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
